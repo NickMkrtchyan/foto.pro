@@ -1122,6 +1122,7 @@ section {
 
 .secret-section .bg {
     width: 85rem;
+    padding-top: 1rem;
 }
 
 .secret__box {
@@ -1186,7 +1187,7 @@ section {
 /* ------------- section ------------------ */
 .program-section {
     padding: 6.3rem 0 0;
-    height: 134.8rem;
+    height: 85.8rem;
 }
 
 .program-section .program__title {
@@ -1276,24 +1277,35 @@ section {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 1.4rem;
-    font-weight: 700;
+    font-size: 1.2rem;
+    font-weight: 400;
     padding: 0.9rem;
     border: 0.1rem solid rgba(217,217,217,0.3);
     border-radius: 0.9rem;
-    width: 10.6rem;
+    width: 9rem;
     flex-shrink: 0;
+    height: 9rem;
+}
+.time__box .time__row .time__time .yellow {
+    font-size: 1.4rem;
+    color: yellow;
+    position: absolute;
+    top: 1rem;
+    font-weight: 500 !important;
 }
 .time__box .time__row .time__text {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     padding-left: 1.3rem;
+    padding-right: 1rem;
     font-size: 1.3rem;
-    font-weight: 500;
+    font-weight: 400;
+    word-break: break-word;
 }
 .time__box .time__row .time__text p {
     margin: 0;
+    font-size: 14px;
 }
 .time__box .time__row .time__text span {
     color: #AAAAAA;
@@ -1403,6 +1415,13 @@ section {
     width: 22rem;
     margin: 0 auto 4.5rem;
     display: block;
+    padding-top: 5rem;
+}
+.tickets-section .insta_btn {
+    color: #000;
+    background-color: #fff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
 }
 
 .tickets__box {
