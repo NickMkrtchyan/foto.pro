@@ -1778,5 +1778,5 @@ display: none;
 .pswp__img {
 object-fit: contain;
 width: 100% !important;
-height: auto !important;
+/* height: 800px !important; */
 }
