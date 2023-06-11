@@ -1,0 +1,23 @@
+.wrapper {
+  padding: 50px;
+}
+.mason {
+  position: relative;
+}
+.mason__item {
+  float: left;
+  background-position: center;
+  background-size: cover;
+}
+.mason__img {
+  background-position: center;
+  background-size: cover;
+}
+.mason__hide {
+  display: none;
+}
+.pswp__img {
+  object-fit: contain;
+  width: 100% !important;
+  height: auto !important;
+}

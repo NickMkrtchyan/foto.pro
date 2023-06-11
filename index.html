@@ -1,418 +1,505 @@
 <!DOCTYPE html>
 <html lang="ru">
-    
-    <head>
-        <meta charset="utf-8">
-        <title>PROF FOTO by Arusik</title>
-        <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-        <meta name="format-detection" content="telephone=no">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" type="text/css">
-        <link rel="stylesheet" href="css/style.css?version=1256">
-    </head>
-    
-    <body>
-        <div class="wrapper">
-            <!-- ------------ INTRO ------------------>
-            <section class="intro-section">
-                <div class="container">
-                    <img class="bg xs" src="img/intro/bg.jpg" alt="">
-                    <img class="bg pc" src="img/intro/bg-pc.jpg" alt="">
-                    <div class="intro__header hiden">
-                        <div class="intro__header-left">
-                            <div class="item item1">Offline-мероприятие</div>
-                            <div class="item item2"><span class="gray">Дата:</span> 26 марта</div>
-                        </div>
-                        <div class="intro__header-right">
-                            <div class="item item1"><span class="gray">Сбор:</span> 13:00 мск</div>
-                            <div class="item item2"><span class="gray">Начало:</span> 14:00 мск</div>
-                        </div>
-                    </div>
-                    <!-- <img class="intro__title" src="img/intro/intro__title.svg?v=123" alt=""> -->
-                    <img class="intro__subtitle" src="images/prof-photo.png" alt="">
-					<!-- <h2 class="intro__title">ԴԱՍԸՆԹԱՑ ՍԿՍՆԱԿԵՆՐԻ ՀԱՄԱՐ</h2> -->
-                    <img class="intro__title" src="images/newbies.png" alt="">
-                    <div class="intro__instagram">@arusikmarkosyan_</div>
-                    <!-- <div class="intro__show-title">ՆՈՐ ՄԱՍՆԱԳԻՏՈՒԹՅԻՆ 3 ՇԱԲԱԹՈՒՄ</div> -->
-                    <img class="intro__show-title" src="images/week.png" alt="">
-                    <!-- <img class="intro__show-subtitle" src="img/intro/intro__show-subtitle.png"alt=""> -->
-					<a class="t-btn" href="#tickets-section">
-						<div class="btn__inner"><span>ՁԵՌՔ ԲԵՐԵԼ ԴԱՍԸՆԹԱՑԸ</span></div>
-					</a>
+<head>
+	<meta charset="utf-8">
+	<title>PROF FOTO by Arusik</title>
+	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<meta content="telephone=no" name="format-detection">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css'>
+</head>
+<body>
+	<div class="wrapper">
+		<!-- ============ INTRO ================-->
+		<section class="intro-section">
+			<div class="container">
+				<img alt="" class="bg xs" src="img/intro/bg.jpg"> <img alt="" class="bg pc" src="img/intro/bg-pc.jpg">
+				<div class="intro__header hiden">
+					<div class="intro__header-left">
+						<div class="item item1">
+							Offline-мероприятие
+						</div>
+						<div class="item item2">
+							<span class="gray">Дата:</span> 26 марта
+						</div>
+					</div>
+					<div class="intro__header-right">
+						<div class="item item1">
+							<span class="gray">Сбор:</span> 13:00 мск
+						</div>
+						<div class="item item2">
+							<span class="gray">Начало:</span> 14:00 мск
+						</div>
+					</div>
+				</div>
+				<img alt="" class="intro__subtitle" src="images/prof-photo.png">
+				<div class="intro__instagram">
+					@arusikmarkosyan_
+				</div>
+				<img alt="" class="intro__show-title" src="images/week.png">
+				 <a class="t-btn" href="#tickets-section">
+				<div class="btn__inner">
+					<span>ՁԵՌՔ ԲԵՐԵԼ ԴԱՍԸՆԹԱՑԸ</span>
+				</div></a>
+			</div>
+		</section>
+        <!-- ============ ARUSIK ================-->
+		<section class="author-section">
+			<img alt="" class="bg pc" src="img/author/bg.jpg"> <img alt="" class="pixy" src="img/author/pixy.png?v=123">
+			<div class="container">
+				<img alt="" class="author__title" src="img/author/title.png">
+				<div class="author__instagram">
+					<img alt="" src="img/author/instagram.png"><span>@arusikmarkosyan_</span>
+				</div>
+				<div class="author__box">
+					<div class="item">
+						<img alt="" class="item__icon" src="img/author/icon.svg">
+						<div class="item__text">
+							<b>Հայաստանի թոփ լուսանկարիչ</b>
+						</div>
+					</div>
+					<div class="item">
+						<img alt="" class="item__icon" src="img/author/icon.svg">
+						<div class="item__text">
+							<b>10 տարվա աշխատանքային փորձ</b>
+						</div>
+					</div>
+					<div class="item">
+						<img alt="" class="item__icon" src="img/author/icon.svg">
+						<div class="item__text">
+							<b>25.000 և ավելի գոհ հաճախորդներ</b>
+						</div>
+					</div>
+					<div class="item">
+						<img alt="" class="item__icon" src="img/author/icon.svg">
+						<div class="item__text">
+							<b>Art Focus Production-ի հիմնադիր</b>
+						</div>
+					</div>
+					<div class="item">
+						<img alt="" class="item__icon" src="img/author/icon.svg">
+						<div class="item__text">
+							<b>Հայտնի բլոգեր ինստագրամում</b>
+						</div>
+					</div>
+					<div class="item">
+						<img alt="" class="item__icon" src="img/author/icon.svg">
+						<div class="item__text">
+							<b>100K ռեալ հետևորդ</b>
+						</div>
+					</div>
+					<div class="item">
+						<img alt="" class="item__icon" src="img/author/icon.svg">
+						<div class="item__text">
+							<b>Հաջողությամբ ավարտած դասընթացների 5 հոսք:Գոհ աշակերտներ ամբողջ աշխարհով մեկ</b>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+        <!-- ============ NAXATESVAC E ================-->
+		<section class="secret-section">
+			<img alt="" class="bg" src="img/secret/bg.jpg">
+			<div class="container">
+				<div class="secret__box">
+					<!-- <h2 class="secret__title">ԿՈՒՐՍԻ ԾՐԱԳԻՐԸ</h2> -->
+					<img alt="" class="secret__title" src="img/program/title.png">
+					<div class="item">
+						<div class="number"><img alt="" class="check-icon" src="img/secret/check-icon.svg"> <img alt="" class="number-svg" src="img/secret/number1.png"></div>
+						<div class="text">
+							<b>ՍԿՍՆԱԿ ԼՈՒՍԱՆԿԱՐԻՉՆԵՐԻ ՀԱՄԱՐ</b><br>
+							Սկսեք պրոֆեսիոնալ լուսանկարել և աշխատեք գումար` դարձնելով հոբբին աշխատանք
+						</div>
+					</div>
+					<div class="item">
+						<div class="number"><img alt="" class="check-icon" src="img/secret/check-icon.svg"> <img alt="" class="number-svg" src="img/secret/number2.png"></div>
+						<div class="text">
+							<b>ԲԻԶՆԵՍ ԷՋԵՐԻ ՀԱՄԱՐ</b><br>
+							Ստեղծեք որակյալ կոնտենտ, ներգրավեք նոր հետևորդների և ավելացրեք վաճառքները
+						</div>
+					</div>
+					<div class="item">
+						<div class="number"><img alt="" class="check-icon" src="img/secret/check-icon.svg"> <img alt="" class="number-svg" src="img/secret/number3.png"></div>
+						<div class="text">
+							<b>ԲԼՈԳԵՐՆԵՐԻ ՀԱՄԱՐ</b><br>
+							Ինքնուրույն ստեղծեք նոր նկարներ` դարձնելով էջը ավելի հետաքրքիր
+						</div>
+					</div>
+					<div class="item">
+						<div class="number"><img alt="" class="check-icon" src="img/secret/check-icon.svg"> <img alt="" class="number-svg" src="img/secret/number4.png"></div>
+						<div class="text">
+							<b>ՄԱՄԱՆԵՐԻ ՀԱՄԱՐ</b><br>
+							Լուսանկարեք ձեր երեխաներին, ընտանիքի անդամներին ու հոբբին դարձրեք նաև աշխատանք
+						</div>
+					</div>
+					<div class="item">
+						<div class="number"><img alt="" class="check-icon" src="img/secret/check-icon.svg"> <img alt="" class="number-svg" src="img/secret/number4.png"></div>
+						<div class="text">
+							<b>CONTENT CREATOR-ՆԵՐԻ ՀԱՄԱՐ</b><br>
+							Սովորե՛ք պրոֆեսիոնալ լուսանկարել և ստեղծեք որակյալ կոնտենտ Ձեր բիզնեսի առաջխաղացման համար
+						</div>
+					</div><a class="t-btn" href="#tickets-section">
+					<div class="btn__inner">
+						ՄԻԱՆԱԼ !
+					</div></a>
+				</div>
+			</div>
+		</section>
+        <!-- ============ KURSI CRAGIR ================-->
+		<section class="secret-section">
+			<img alt="" class="bg" src="img/secret/bg.jpg">
+			<div class="container">
+				<div class="secret__box">
+					<!-- <h2 class="secret__title">ԿՈՒՐՍԻ ԾՐԱԳԻՐԸ</h2> -->
+					<img alt="" class="secret__title" src="img/secret/title.png">
+					<div class="item">
+						<div class="number"><img alt="" class="check-icon" src="img/secret/check-icon.svg"> <img alt="" class="number-svg" src="img/secret/number1.png"></div>
+						<div class="text">
+							Տեսախցիկների և օբյեկտիվների տեսակները.Վիդեոդաս և լրացուցիչ գայդեր տեխնիկայի տեսակների մասին
+						</div>
+					</div>
+					<div class="item">
+						<div class="number"><img alt="" class="check-icon" src="img/secret/check-icon.svg"> <img alt="" class="number-svg" src="img/secret/number2.png"></div>
+						<div class="text">
+							Լուսանկարների ժանրերը
+						</div>
+					</div>
+					<div class="item">
+						<div class="number"><img alt="" class="check-icon" src="img/secret/check-icon.svg"> <img alt="" class="number-svg" src="img/secret/number3.png"></div>
+						<div class="text">
+							Կամերայի հիմնական կարգավորումները
+						</div>
+					</div>
+					<div class="item">
+						<div class="number"><img alt="" class="check-icon" src="img/secret/check-icon.svg"> <img alt="" class="number-svg" src="img/secret/number4.png"></div>
+						<div class="text">
+							Դրսում նկարելու հմտությունները. նկարահանման գաղտնիքները վատ լուսավորության պայմաններում
+						</div>
+					</div>
+					<div class="item">
+						<div class="number"><img alt="" class="check-icon" src="img/secret/check-icon.svg"> <img alt="" class="number-svg" src="img/secret/number5.png"></div>
+						<div class="text">
+							Ստուդիայի աշխատանքի մանրամասներ.Տեխնիկայի մասին մանրակրկիտ գայդ
+						</div>
+					</div>
+					<div class="item">
+						<div class="number"><img alt="" class="check-icon" src="img/secret/check-icon.svg"> <img alt="" class="number-svg" src="img/secret/number6.png"></div>
+						<div class="text">
+							Ստուդիայում նկարելու հիմնական գաղտնիքները.Պրակտիկ վիդեոդաս սև և սպիտակ ֆոնին աշխատելիս
+						</div>
+					</div>
+					<div class="item">
+						<div class="number"><img alt="" class="check-icon" src="img/secret/check-icon.svg"> <img alt="" class="number-svg" src="img/secret/number7.png"></div>
+						<div class="text">
+							Ստուդիայի լուսավորության սխեմաների մասին մանրակրկիտ գայդ
+						</div>
+					</div>
+					<div class="item">
+						<div class="number"><img alt="" class="check-icon" src="img/secret/check-icon.svg"> <img alt="" class="number-svg" src="img/secret/number8.png"></div>
+						<div class="text">
+							Տարածված սխալները լույսի հետ աշխատելիս։Մանրակրկիտ վերլուծություն
+						</div>
+					</div>
+					<div class="item">
+						<div class="number"><img alt="" class="check-icon" src="img/secret/check-icon.svg"> <img alt="" class="number-svg" src="img/secret/number9.png"></div>
+						<div class="text">
+							Պրակտիկ վիդեոդաս նկարահանման տարբեր լուսավորության պայմաններում (Վսպիշկայով աշխատանք)
+						</div>
+					</div>
+					<div class="item">
+						<div class="number"><img alt="" class="check-icon" src="img/secret/check-icon.svg"> <img alt="" class="number-svg" src="img/secret/number10.png"></div>
+						<div class="text">
+							Սկսնակ նկարիչների տարածված սխալնը
+						</div>
+					</div>
+					<div class="item">
+						<div class="number"><img alt="" class="check-icon" src="img/secret/check-icon.svg"> <img alt="" class="number-svg" src="img/secret/number11.png"></div>
+						<div class="text">
+							Հաճախորդի հետ շփում՝գրանցման փուլից մինչև նկարների հանձնումը (Մանրակրկիտ վերլուծություն.Գրառում)
+						</div>
+					</div>
+					<div class="item">
+						<div class="number"><img alt="" class="check-icon" src="img/secret/check-icon.svg"> <img alt="" class="number-svg" src="img/secret/number12.png"></div>
+						<div class="text">
+							Պոզիրովկա
+						</div>
+					</div>
+					<div class="item">
+						<div class="number"><img alt="" class="check-icon" src="img/secret/check-icon.svg"> <img alt="" class="number-svg" src="img/secret/number13.png"></div>
+						<div class="text">
+							Նկարների մշահում LIGHTROOM ծրագրում
+						</div>
+					</div>
+					<div class="item">
+						<div class="number"><img alt="" class="check-icon" src="img/secret/check-icon.svg"> <img alt="" class="number-svg" src="img/secret/number14.png"></div>
+						<div class="text">
+							Նկարների մշակում PHOTOSHOP ծրագրում
+						</div>
+					</div>
+					<div class="item">
+						<div class="number"><img alt="" class="check-icon" src="img/secret/check-icon.svg"> <img alt="" class="number-svg" src="img/secret/number15.png"></div>
+						<div class="text">
+							BONUS. Իմ հեղինակային պրեսետները
+						</div>
+					</div>
+					<div class="item">
+						<div class="number"><img alt="" class="check-icon" src="img/secret/check-icon.svg"> <img alt="" class="number-svg" src="img/secret/number16.png"></div>
+						<div class="text">
+							BONUS. Հարսանեկան նկարահանումների վերլուծություն
+						</div>
+					</div><a class="t-btn" href="#tickets-section">
+					<div class="btn__inner">
+						ՄԻԱՆԱԼ !
+					</div></a>
+				</div>
+			</div>
+		</section>
+        <!-- ============ PATETNER ================-->
+		<section class="program-section lockk">
+			<img alt="" class="bg pc" src="img/program/bg.jpg">
+			<div class="container">
+				<img alt="" class="program__title" src="img/program/price.png">
+				<div class="time__box">
+					<img alt="" class="author__time" src="img/program/time.png">
+					<div class="time__row">
+						<div class="time__time">
+							<b class="yellow">STANDART</b><br>
+							150.000դր<br>
+							500$<br>
+							500€
+						</div>
+						<div class="time__text">
+							<p>Բոլոր թեմաների հասանելիություն: Ինքնուրույն ուսուցում առանց հետադարձ կապի</p>
+						</div>
+					</div>
+					<hr>
+					<div class="time__row">
+						<div class="time__time">
+							<b class="yellow">PREMIUM</b><br>
+							180.000դր<br>
+							600$<br>
+							600€
+						</div>
+						<div class="time__text">
+							<p>Բոլոր թեմաների հասանելիություն: Ուսուցում հետադարձ կապով,աջակցություն ընդանուր չատում: Տնային աշխատանքների ստուգում,վերլուծություն</p>
+						</div>
+					</div>
+					<hr>
+					<div class="time__row">
+						<div class="time__time">
+							<b class="yellow">VIP</b><br>
+							220.000դր<br>
+							800$<br>
+							800€
+						</div>
+						<div class="time__text">
+							<p>Բոլոր թեմաների հասանելիություն: Ուսուցում հետադարձ կապով,աջակցություն ընդանուր չատում: Տնային աշխատանքների ստուգում,վերլուծություն: 2 պրակտիկ offline դաս/workshop. (Ստուդիայում և դրսում)</p>
+						</div>
+					</div>
+					<hr>
+					<div class="time__row">
+						<div class="time__time">
+							<b class="yellow">PRIVATE</b><br>
+							300.000դր<br>
+							1000$<br>
+							1000€
+						</div>
+						<div class="time__text">
+							<p>Բոլոր դասերի հասանելիություն Ուսուցում հետադարձ կապով,մշտական կապ-աջակցություն անհատական չատում: Տնային աշխատանքների ստուգում,վերլուծություն: Պրակտիկ offline դաս-հանդիպում. (Ստուդիայում և դրսում): (հեռակայի դեպքում facetime - call 📞)</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+        <!-- ============ INFORMACIA BANKAYIN ================-->
+		<section class="tickets-section" id="tickets-section">
+			<div class="bg-wrapper bg pc"><img alt="" class="" src="img/tickets/bg.jpg"></div>
+			<div class="container">
+				<img alt="" class="tickets__title" src="img/tickets/title">
+				<p class="tickets__title fs-14 fw-4 pt-0 px-2 mt-0 pb-3 text-center yellow_bg">ՔԱՐՏԻՑ ՔԱՐՏ ՓՈԽԱՆՑՈՒՄ<br>
+				ՀՀ ԲԱՆԿԵՐԻ ՄԻՋԵՎ</p>
+				<div class="payments">
+					<div class="payment_image"><img src="https://play-lh.googleusercontent.com/lxDemct3KdfMZvQTfYOK0ztyBe1pokhM6QRESRHtT0tTgAQTkcyYq97GSXHIkubIgrdr"></div>
+					<div class="payment_number">
+						<p><b>5501 0401 0089 7577</b><br>
+						ARUSYAK MARKOSYAN</p>
+					</div>
+				</div>
+				<div class="payments">
+					<div class="payment_image"><img src="https://yt3.googleusercontent.com/yxz6-Z2iERTHgsnw_cRpAousRANQiPv1ebSiFw-X0bCEAAQ0KuFQE0F1v360ZS23IT_c_QA4=s900-c-k-c0x00ffffff-no-rj"></div>
+					<div class="payment_number">
+						<p><b>5501 0401 0089 7577</b><br>
+						ARUSYAK MARKOSYAN</p>
+					</div>
+				</div>
+				<div class="payments">
+					<div class="payment_image"><img src="https://play-lh.googleusercontent.com/QsT_a6TbGXgbeU4RZBgmlh-sPb8qCb7fZItMQgsywX7HqZyw2kIuE-Ai7XdceXTiwJA"></div>
+					<div class="payment_number">
+						<p><b>668935415</b><br>
+						ARUSYAK MARKOSYAN</p>
+					</div>
+				</div>
+				<div class="author__box">
+					<div class="item">
+						<img alt="" class="item__icon" src="img/author/icon.svg">
+						<div class="item__text">
+							<b>Գումարը փոխանցելուն պես կապնվեք ինձ հետ` @arusikmarkosyan_photography</b>
+						</div>
+					</div>
+					<div class="item">
+						<img alt="" class="item__icon" src="img/author/icon.svg">
+						<div class="item__text">
+							<b>Դասերի մեկնարկը ԱՊՐԻԼԻ 1-ից</b>
+						</div>
+					</div>
+					<div class="item">
+						<img alt="" class="item__icon" src="img/author/icon.svg">
+						<div class="item__text">
+							<b>Դասերը անցնելու են telegram-ի փակ ալիքում:</b>
+						</div>
+					</div>
+					<div class="item">
+						<img alt="" class="item__icon" src="img/author/icon.svg">
+						<div class="item__text">
+							<b>Կապը՝what's app-ով:</b>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+        <!-- ============ section ================-->
+		<section class="timer-section">
+			<div class="container">
+				<div class="timer__box">
+					<img alt="" class="borderr" src="img/timer/border.svg">
+					<div class="timer__value"></div>
+					<div class="timer__description">
+						<span>Օր</span><span>Ժամ</span><span>Րոպե</span><span>Վայրկյան</span>
+					</div>
+				</div><!-- Код виджета можете вставить в "tickets__box"-->
+				<form action="ajax.php" class="" data-form="1" method="post">
+					<a class="t-btn text-center mx-4" href="https://instagram.com/arusikmarkosyan_photography">
+					<div class="btn__inner">
+						ՈՒՂԱՐԿԵԼ ՉԵԿԸ
+					</div></a>
+				</form>
+			</div>
+		</section>
+	</div>
+    <!-- ============ section ================-->
+	<footer class="footer-section">
+		<div class="container">
+			<img src="img/reviews/review_title.png">
+			<div class="slider">
+				<div class="slider_item">
+					<img class="review_pic" src="img/reviews/1.jpeg">
+                    <span class="review_text">Արուս ջաա՜ն մերսի շատ, քեզ վաղուց հետևում ու ճանաչում եմ , եթե ֆոտո դասընթաց ուրեմն մենակ քո մոտ: Իրականում օնլայն որևէ դաս վերցնելուց միշտ մտածել եմ, արժի՞ որ: Էս դեպքում իրոք արժեր ու ասեմ ավելին արժեր հենց պրակտիկ դասերով (Արշակին workshop-ի օրը ասում եմ` « կլինի հետագայում ես գամ զուտ նայեմ ոնց եք նկարում 😂»): Մի 2 բառով ասեմ օնլայնի հետ կապված, ապրես նորից, որ ժամերով ջուր չես ծեծել, իմ համար անհնարին կլիներ 1ժ կամ ավել լսել ու լսել 🙈, ինֆոն հասանելի, մատչելի, անմիջական (թվուր էր նայելուց քո հետ եմ 😂) Սկզբում նույնիսկ կամեռա չեմ ունեցել ու արդեն պատկերացնում էի, որ կամեռան գա շատ բաներ «մարսած»եմ լինելու: Չասեմ, որ workshop-երն ամբողջությամբ ամրապնդեցին գիտելիքներս, գիտեմ, որ մնացածն էլ ինձնից ու պրակտիկայիցա կախված: Ապրեք, դու էլ Արշակն էլ, ձեր մոտ սովորելն անսահման հաճելի էր, ձեզ լիքը հաջողություններ ու գոհունակ ուսանողներ 😘 @capturebyflor</span>
+				</div>
+				<div class="slider_item">
+					<img class="review_pic" src="img/reviews/2.jpeg"> <span class="review_text">Արուսիկ ջան ողջույն Շատ շատ հաճելի է նախ ծանոթանալը քեզ հետ ,անմիջական ու ջերմ մթնոլորտում ավելի հաճելի է սովորելը ։ Իսկ դասերը շատ լավն էին,շատ մանրամասնորեն էիր բացատրում ,ՃԻՇՏ է ես վորքշոփերին չեմ մասնակցել քանի որ դասերին միացել եմ Եվրոպայից։ Ու ասեմ ավելին դեռ չվերջացրած արդեն ՊԱՏՎԵՐՆԵՐ ԵՄ ստացել ու դեռ ստանում եմ, աշխատում եմ ու դա արդեն շատ ոգևորող է։ Ապրես շատ ❤️❤️❤️ @photographe.arm</span>
+				</div>
+				<div class="slider_item">
+					<img class="review_pic" src="img/reviews/3.jpeg"> <span class="review_text">Արուսիկ ջան շատ շնորհակալ եմ Ձեր տված գիտելիքների համար։ Դասընթացը շատ պռոդուկտիվ էր, ամեն ինչ մանրամասն բացատրում էիք, դե իսկ մեր պրակտիկ դասընթացների մասին խոսքերն ավելորդ են, շատ տպավորված եմ, ոգևորված ուզում եմ գնամ ու աշխարհը գրավեմ😅 Ձեզ շատ սիրեցի էս կարճ ժամանակահատվածում, ու ինչ-որ տեղ նաև տխրում եմ, որ կուրսն ավարտեցի։ Մի խոսքով շնորհակալ եմ Ձեր հոգատարության ու նվիրվածության համար։❤️🫶🏻❤️ @hayrapetyan_photography_</span>
+				</div>
+				<div class="slider_item">
+					<img class="review_pic" src="img/reviews/4.jpeg"> <span class="review_text">Արուսսսս ջաան մերսի Ձեզ❤️ Նախ շատ ուրախ եմ ծանոթության համար,ու ուրախ եմ,որ հենց քեզ ընտրեցի։ Շնորհակալ եմ շատ Ձեր տված գիտելիքների համար,հաճելի ու պարզ դասերի համար։ Իսկ պրակտիկ դասերը շատ օգնեցին ամրապնդել մեր գիտելիքները👍🏻❤️ @anulghazaryan_photography</span>
+				</div>
+				<div class="slider_item">
+					<img class="review_pic" src="img/reviews/5.jpeg"> <span class="review_text">✅ ֆոտոխցիկի հետ ճիշտ աշխատանք ✅ Կադրերի ճիշտ ընտրություն ✅ Ճիշտ լուսավորություն ✅ Ռակուրսի ճիշտ որոշում Ամեն ինչը ճիշտ, դե ճիշտն էլ մի հատ ա՝ Արուսի պես 😍 Արուուուուուս, քո ու քո դասընթացի շնորհիվ տեսախցիկի հետ Դուքից կտրուկ անցա դու-ի, մերսի շատ-շատ😊</span>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+            <img src="img/reviews/story.png">
+            <div class="wrapper">
+                <div class="mason">
+                  <div class="mason__item mason__img" style="background-image: url('/gallery/image/image1.jpg')" data-dimensions="960x960"  data-href="/gallery/image/image1.jpg"></div>
+                  <div class="mason__item mason__img" style="background-image: url('/gallery/image/image2.jpg')" data-dimensions="960x960"  data-href="/gallery/image/image2.jpg"></div>
+                  <div class="mason__item mason__img" style="background-image: url('/gallery/image/image3.jpg')" data-dimensions="960x960"  data-href="/gallery/image/image3.jpg"></div>
+                  <div class="mason__item mason__img" style="background-image: url('/gallery/image/image4.jpg')" data-dimensions="960x960"  data-href="/gallery/image/image4.jpg"></div>
+                  <div class="mason__item mason__img" style="background-image: url('/gallery/image/image5.jpg')" data-dimensions="960x960"  data-href="/gallery/image/image5.jpg"></div>
+                  <div class="mason__item mason__img" style="background-image: url('/gallery/image/image6.jpg')" data-dimensions="960x960"  data-href="/gallery/image/image6.jpg"></div>
+                  <div class="mason__item mason__img" style="background-image: url('/gallery/image/image7.jpg')" data-dimensions="960x960"  data-href="/gallery/image/image7.jpg"></div>
+                  <div class="mason__item mason__img" style="background-image: url('/gallery/image/image8.jpg')" data-dimensions="960x960"  data-href="/gallery/image/image8.jpg"></div>
+                  <div class="mason__item mason__img" style="background-image: url('/gallery/image/image9.jpg')" data-dimensions="960x960"  data-href="/gallery/image/image9.jpg"></div>
+                  <div class="mason__item mason__img" style="background-image: url('/gallery/image/image10.jpg')" data-dimensions="960x960" data-href="/gallery/image/image10.jpg"></div>
+                  <div class="mason__item mason__img" style="background-image: url('/gallery/image/image11.jpg')" data-dimensions="960x960" data-href="/gallery/image/image11.jpg"></div>
+                  <div class="mason__item mason__img" style="background-image: url('/gallery/image/image12.jpg')" data-dimensions="960x960" data-href="/gallery/image/image12.jpg"></div>
+                  <div class="mason__item mason__img" style="background-image: url('/gallery/image/image13.jpg')" data-dimensions="960x960" data-href="/gallery/image/image13.jpg"></div>
+                  <div class="mason__item mason__img" style="background-image: url('/gallery/image/image14.jpg')" data-dimensions="960x960" data-href="/gallery/image/image14.jpg"></div>
+                  <div class="mason__item mason__img" style="background-image: url('/gallery/image/image15.jpg')" data-dimensions="960x960" data-href="/gallery/image/image15.jpg"></div>
+                  <div class="mason__item mason__img" style="background-image: url('/gallery/image/image16.jpg')" data-dimensions="960x960" data-href="/gallery/image/image16.jpg"></div>
+                  <div class="mason__item mason__img" style="background-image: url('/gallery/image/image17.jpg')" data-dimensions="960x960" data-href="/gallery/image/image17.jpg"></div>
+                  <div class="mason__item mason__img" style="background-image: url('/gallery/image/image18.jpg')" data-dimensions="960x960" data-href="/gallery/image/image18.jpg"></div>
+                  <div class="mason__item mason__img" style="background-image: url('/gallery/image/image19.jpg')" data-dimensions="960x960" data-href="/gallery/image/image19.jpg"></div>
                 </div>
-            </section>
-			<!-- ------------ ARUSIK ------------------>
-			<section class="author-section">
-				<img class="bg pc" src="img/author/bg.jpg" alt="">
-				<img class="pixy" src="img/author/pixy.png?v=123" alt="">
-				<div class="container">
-					<img class="author__title" src="img/author/title.svg" alt="">
-					<div class="author__instagram">
-						<img src="img/author/instagram.png" alt=""><span>@arusikmarkosyan_</span>
-					</div>
-					<div class="author__box">
-						<div class="item">
-							<img class="item__icon" src="img/author/icon.svg" alt="">
-							<div class="item__text"><b>Հայաստանի թոփ լուսանկարիչ</b></div>
-						</div>
-						<div class="item">
-							<img class="item__icon" src="img/author/icon.svg" alt="">
-							<div class="item__text"><b>10 տարվա աշխատանքային փորձ</b></div>
-						</div>
-						<div class="item">
-							<img class="item__icon" src="img/author/icon.svg" alt="">
-							<div class="item__text"><b>25.000 և ավելի գոհ հաճախորդներ</b></div>
-						</div>
-						<div class="item">
-							<img class="item__icon" src="img/author/icon.svg" alt="">
-							<div class="item__text"><b>Art Focus Production-ի հիմնադիր</b></div>
-						</div>
-						<div class="item">
-							<img class="item__icon" src="img/author/icon.svg" alt="">
-							<div class="item__text"><b>Հայտնի բլոգեր ինստագրամում</b>
-							</div>
-						</div>
-						<div class="item">
-							<img class="item__icon" src="img/author/icon.svg" alt="">
-							<div class="item__text"><b>100K ռեալ հետևորդ</b>
-							</div>
-						</div>
-						<div class="item">
-							<img class="item__icon" src="img/author/icon.svg" alt="">
-							<div class="item__text"><b>Հաջողությամբ ավարտած դասընթացների 5 հոսք:Գոհ աշակերտներ ամբողջ աշխարհով մեկ</b>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-            <!-- ------------ NAXATESVAC E ------------------>
-            <section class="secret-section">
-                <img class="bg" src="img/secret/bg.jpg" alt="">
-                <div class="container">
-                    <div class="secret__box">
-						<!-- <h2 class="secret__title">ԿՈՒՐՍԻ ԾՐԱԳԻՐԸ</h2> -->
-                    <img class="secret__title" src="img/program/title.png" alt="">
-                        <div class="item">
-                            <div class="number">
-                                <img class="check-icon" src="img/secret/check-icon.svg" alt="">
-                                <img class="number-svg" src="img/secret/number1.png" alt="">
-                            </div>
-                            <div class="text">
-								<b>ՍԿՍՆԱԿ ԼՈՒՍԱՆԿԱՐԻՉՆԵՐԻ ՀԱՄԱՐ</b><br>
-								Սկսեք պրոֆեսիոնալ լուսանկարել և աշխատեք գումար` դարձնելով հոբբին աշխատանք
-							</div>
+              </div>
+              <!-- Root element of PhotoSwipe. Must have class pswp.-->
+              <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+                <!--
+                Background of PhotoSwipe.
+                It's a separate element as animating opacity is faster than rgba().
+                -->
+                <div class="pswp__bg"></div>
+                <!-- Slides wrapper with overflow:hidden.-->
+                <div class="pswp__scroll-wrap">
+                  <!--
+                  Container that holds slides.
+                  PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                  Don't modify these 3 pswp__item elements, data is added later on.
+                  -->
+                  <div class="pswp__container">
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                  </div>
+                  <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed.-->
+                  <div class="pswp__ui pswp__ui--hidden">
+                    <div class="pswp__top-bar">
+                      <!-- Controls are self-explanatory. Order can be changed.-->
+                      <div class="pswp__counter"></div>
+                      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                      <button class="pswp__button pswp__button--share" title="Share"></button>
+                      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                      <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR-->
+                      <!-- element will get class pswp__preloader--active when preloader is running-->
+                      <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                          <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                          </div>
                         </div>
-                        <div class="item">
-                            <div class="number">
-                                <img class="check-icon" src="img/secret/check-icon.svg" alt="">
-                                <img class="number-svg" src="img/secret/number2.png" alt="">
-                            </div>
-                            <div class="text">
-								<b>ԲԻԶՆԵՍ ԷՋԵՐԻ ՀԱՄԱՐ</b><br>
-								Ստեղծեք որակյալ կոնտենտ, ներգրավեք նոր հետևորդների և ավելացրեք վաճառքները
-							</div>
-                        </div>
-                        <div class="item">
-                            <div class="number">
-                                <img class="check-icon" src="img/secret/check-icon.svg" alt="">
-                                <img class="number-svg" src="img/secret/number3.png" alt="">
-                            </div>
-                            <div class="text">
-								<b>ԲԼՈԳԵՐՆԵՐԻ ՀԱՄԱՐ</b><br>
-								Ինքնուրույն ստեղծեք նոր նկարներ` դարձնելով էջը ավելի հետաքրքիր
-							</div>
-                        </div>
-                        <div class="item">
-                            <div class="number">
-                                <img class="check-icon" src="img/secret/check-icon.svg" alt="">
-                                <img class="number-svg" src="img/secret/number4.png" alt="">
-                            </div>
-                            <div class="text">
-								<b>ՄԱՄԱՆԵՐԻ ՀԱՄԱՐ</b><br>
-								Լուսանկարեք ձեր երեխաներին, ընտանիքի անդամներին ու հոբբին դարձրեք նաև աշխատանք
-							</div>
-                        </div>
-                        <div class="item">
-                            <div class="number">
-                                <img class="check-icon" src="img/secret/check-icon.svg" alt="">
-                                <img class="number-svg" src="img/secret/number4.png" alt="">
-                            </div>
-                            <div class="text">
-								<b>CONTENT CREATOR-ՆԵՐԻ ՀԱՄԱՐ</b><br>
-								Սովորե՛ք պրոֆեսիոնալ լուսանկարել և ստեղծեք որակյալ կոնտենտ Ձեր բիզնեսի առաջխաղացման համար
-							</div>
-                        </div>
-						<a class="t-btn" href="#tickets-section"> <div class="btn__inner">ՄԻԱՆԱԼ !</div></a>
+                      </div>
                     </div>
+                    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                      <div class="pswp__share-tooltip"></div>
+                    </div>
+                    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                    <div class="pswp__caption">
+                      <div class="pswp__caption__center"></div>
+                    </div>
+                  </div>
                 </div>
-            </section>
-            <!-- ------------ KURSI CRAGIR ------------------>
-            <section class="secret-section">
-                <img class="bg" src="img/secret/bg.jpg" alt="">
-                <div class="container">
-                    <div class="secret__box">
-						<!-- <h2 class="secret__title">ԿՈՒՐՍԻ ԾՐԱԳԻՐԸ</h2> -->
-                        <img class="secret__title" src="img/secret/title.png" alt="">
-                        <div class="item">
-                            <div class="number">
-                                <img class="check-icon" src="img/secret/check-icon.svg" alt="">
-                                <img class="number-svg" src="img/secret/number1.png" alt="">
-                            </div>
-                            <div class="text">
-								Տեսախցիկների և օբյեկտիվների տեսակները.Վիդեոդաս և լրացուցիչ գայդեր տեխնիկայի տեսակների մասին 
-							</div>
-                        </div>
-                        <div class="item">
-                            <div class="number">
-                                <img class="check-icon" src="img/secret/check-icon.svg" alt="">
-                                <img class="number-svg" src="img/secret/number2.png" alt="">
-                            </div>
-                            <div class="text">
-								Լուսանկարների ժանրերը 
-							</div>
-                        </div>
-                        <div class="item">
-                            <div class="number">
-                                <img class="check-icon" src="img/secret/check-icon.svg" alt="">
-                                <img class="number-svg" src="img/secret/number3.png" alt="">
-                            </div>
-                            <div class="text">
-								Կամերայի հիմնական կարգավորումները 
-							</div>
-                        </div>
-                        <div class="item">
-                            <div class="number">
-                                <img class="check-icon" src="img/secret/check-icon.svg" alt="">
-                                <img class="number-svg" src="img/secret/number4.png" alt="">
-                            </div>
-                            <div class="text">
-								Դրսում նկարելու հմտությունները. նկարահանման գաղտնիքները վատ լուսավորության պայմաններում
-							</div>
-                        </div>
-                        <div class="item">
-                            <div class="number">
-                                <img class="check-icon" src="img/secret/check-icon.svg" alt="">
-                                <img class="number-svg" src="img/secret/number5.png" alt="">
-                            </div>
-                            <div class="text">
-								Ստուդիայի աշխատանքի մանրամասներ.Տեխնիկայի մասին մանրակրկիտ գայդ
-							</div>
-                        </div>
-                        <div class="item">
-                            <div class="number">
-                                <img class="check-icon" src="img/secret/check-icon.svg" alt="">
-                                <img class="number-svg" src="img/secret/number6.png" alt="">
-                            </div>
-                            <div class="text">
-								Ստուդիայում նկարելու հիմնական գաղտնիքները.Պրակտիկ վիդեոդաս սև և սպիտակ ֆոնին աշխատելիս
-							</div>
-                        </div>
-                        <div class="item">
-                            <div class="number">
-                                <img class="check-icon" src="img/secret/check-icon.svg" alt="">
-                                <img class="number-svg" src="img/secret/number7.png" alt="">
-                            </div>
-                            <div class="text">
-								Ստուդիայի լուսավորության սխեմաների մասին մանրակրկիտ գայդ
-							</div>
-                        </div>
-                        <div class="item">
-                            <div class="number">
-                                <img class="check-icon" src="img/secret/check-icon.svg" alt="">
-                                <img class="number-svg" src="img/secret/number8.png" alt="">
-                            </div>
-                            <div class="text">
-								Տարածված սխալները լույսի հետ աշխատելիս։Մանրակրկիտ վերլուծություն
-							</div>
-                        </div>
-                        <div class="item">
-                            <div class="number">
-                                <img class="check-icon" src="img/secret/check-icon.svg" alt="">
-                                <img class="number-svg" src="img/secret/number9.png" alt="">
-                            </div>
-                            <div class="text">
-								Պրակտիկ վիդեոդաս նկարահանման տարբեր լուսավորության պայմաններում (Վսպիշկայով աշխատանք)
-							</div>
-                        </div>
-                        <div class="item">
-                            <div class="number">
-                                <img class="check-icon" src="img/secret/check-icon.svg" alt="">
-                                <img class="number-svg" src="img/secret/number10.png" alt="">
-                            </div>
-                            <div class="text">
-								Սկսնակ նկարիչների տարածված սխալնը
-							</div>
-                        </div>
-                        <div class="item">
-                            <div class="number">
-                                <img class="check-icon" src="img/secret/check-icon.svg" alt="">
-                                <img class="number-svg" src="img/secret/number11.png" alt="">
-                            </div>
-                            <div class="text">
-								Հաճախորդի հետ շփում՝գրանցման փուլից մինչև նկարների հանձնումը (Մանրակրկիտ վերլուծություն.Գրառում)
-							</div>
-                        </div>
-                        <div class="item">
-                            <div class="number">
-                                <img class="check-icon" src="img/secret/check-icon.svg" alt="">
-                                <img class="number-svg" src="img/secret/number12.png" alt="">
-                            </div>
-                            <div class="text">
-								Պոզիրովկա
-							</div>
-                        </div>
-                        <div class="item">
-                            <div class="number">
-                                <img class="check-icon" src="img/secret/check-icon.svg" alt="">
-                                <img class="number-svg" src="img/secret/number13.png" alt="">
-                            </div>
-                            <div class="text">
-								Նկարների մշահում LIGHTROOM ծրագրում
-							</div>
-                        </div>
-                        <div class="item">
-                            <div class="number">
-                                <img class="check-icon" src="img/secret/check-icon.svg" alt="">
-                                <img class="number-svg" src="img/secret/number14.png" alt="">
-                            </div>
-                            <div class="text">
-								Նկարների մշակում PHOTOSHOP ծրագրում
-							</div>
-                        </div>
-                        <div class="item">
-                            <div class="number">
-                                <img class="check-icon" src="img/secret/check-icon.svg" alt="">
-                                <img class="number-svg" src="img/secret/number15.png" alt="">
-                            </div>
-                            <div class="text">
-								BONUS. Իմ հեղինակային պրեսետները
-							</div>
-                        </div>
-                        <div class="item">
-                            <div class="number">
-                                <img class="check-icon" src="img/secret/check-icon.svg" alt="">
-                                <img class="number-svg" src="img/secret/number16.png" alt="">
-                            </div>
-                            <div class="text">
-								BONUS. Հարսանեկան նկարահանումների վերլուծություն
-							</div>
-                        </div>
-						<a class="t-btn" href="#tickets-section"> <div class="btn__inner">ՄԻԱՆԱԼ !</div></a>
-                    </div>
-                </div>
-            </section>
-            <!-- ------------ PATETNER ------------------>
-            <section class="program-section lockk">
-                <img class="bg pc" src="img/program/bg.jpg" alt="">
-                <div class="container">
-                    <img class="program__title" src="img/program/price.png" alt="">
-                    <div class="time__box">
-						<img class="author__time" src="img/program/time.png" alt="">
-						<div class="time__row">
-							<div class="time__time"><b class="yellow">STANDART</b><br>150.000դր<br>500$<br>500€</div>
-							<div class="time__text"><p>Բոլոր թեմաների հասանելիություն: Ինքնուրույն ուսուցում առանց հետադարձ կապի</p></div>
-						</div>
-                        <hr>
-						<div class="time__row">
-							<div class="time__time"><b class="yellow">PREMIUM</b><br>180.000դր<br>600$<br>600€</div>
-							<div class="time__text"><p>Բոլոր թեմաների հասանելիություն: Ուսուցում հետադարձ կապով,աջակցություն ընդանուր չատում: Տնային աշխատանքների ստուգում,վերլուծություն</p></div>
-						</div>
-                        <hr>
-						<div class="time__row">
-							<div class="time__time"><b class="yellow">VIP</b><br>220.000դր<br>800$<br>800€</div>
-							<div class="time__text"><p>Բոլոր թեմաների հասանելիություն: Ուսուցում հետադարձ կապով,աջակցություն ընդանուր չատում: Տնային աշխատանքների ստուգում,վերլուծություն: 2 պրակտիկ offline դաս/workshop. (Ստուդիայում և դրսում)</p></div>
-						</div>
-                        <hr>
-						<div class="time__row">
-							<div class="time__time"><b class="yellow">PRIVATE</b><br>300.000դր<br>1000$<br>1000€</div>
-							<div class="time__text"><p>Բոլոր դասերի հասանելիություն
-                                Ուսուցում հետադարձ կապով,մշտական կապ-աջակցություն անհատական չատում: Տնային աշխատանքների ստուգում,վերլուծություն: Պրակտիկ offline դաս-հանդիպում. (Ստուդիայում և դրսում): (հեռակայի դեպքում facetime - call 📞)</p></div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- ------------ INFORMACIA BANKAYIN ------------------>
-			<section class="tickets-section" id="tickets-section">
-				<div class="bg-wrapper bg pc"><img class="" src="img/tickets/bg.jpg" alt=""></div>
-				<div class="container">
-					<img class="tickets__title" src="img/tickets/title" alt="">
-                    <p class="tickets__title fs-14 fw-4 pt-0 px-2 mt-0 pb-3 text-center yellow_bg">ՔԱՐՏԻՑ ՔԱՐՏ ՓՈԽԱՆՑՈՒՄ<br>ՀՀ ԲԱՆԿԵՐԻ ՄԻՋԵՎ</p>
-                    <div class="payments">
-                        <div class="payment_image">
-                            <img src="https://play-lh.googleusercontent.com/lxDemct3KdfMZvQTfYOK0ztyBe1pokhM6QRESRHtT0tTgAQTkcyYq97GSXHIkubIgrdr">
-                        </div>
-                        <div class="payment_number">
-                            <p><b>5501 0401 0089 7577</b> <br> ARUSYAK MARKOSYAN</p>
-                        </div>
-                    </div>
-                    <div class="payments">
-                        <div class="payment_image">
-                            <img src="https://yt3.googleusercontent.com/yxz6-Z2iERTHgsnw_cRpAousRANQiPv1ebSiFw-X0bCEAAQ0KuFQE0F1v360ZS23IT_c_QA4=s900-c-k-c0x00ffffff-no-rj">
-                        </div>
-                        <div class="payment_number">
-                            <p><b>5501 0401 0089 7577</b> <br> ARUSYAK MARKOSYAN</p>
-                        </div>
-                    </div>
-                    <div class="payments">
-                        <div class="payment_image">
-                            <img src="https://play-lh.googleusercontent.com/QsT_a6TbGXgbeU4RZBgmlh-sPb8qCb7fZItMQgsywX7HqZyw2kIuE-Ai7XdceXTiwJA">
-                        </div>
-                        <div class="payment_number">
-                            <p><b>668935415</b> <br> ARUSYAK MARKOSYAN</p>
-                        </div>
-                    </div>
-
-					<div class="author__box">
-						<div class="item">
-							<img class="item__icon" src="img/author/icon.svg" alt="">
-							<div class="item__text"><b>Գումարը փոխանցելուն պես կապնվեք ինձ հետ` @arusikmarkosyan_photography</b></div>
-						</div>
-						<div class="item">
-							<img class="item__icon" src="img/author/icon.svg" alt="">
-							<div class="item__text"><b>Դասերի մեկնարկը ԱՊՐԻԼԻ 1-ից</b></div>
-						</div>
-						<div class="item">
-							<img class="item__icon" src="img/author/icon.svg" alt="">
-							<div class="item__text"><b>Դասերը անցնելու են telegram-ի փակ ալիքում:</b></div>
-						</div>
-						<div class="item">
-							<img class="item__icon" src="img/author/icon.svg" alt="">
-							<div class="item__text"><b>Կապը՝what's app-ով:</b></div>
-						</div>
-                    </div>
-				</div>
-			</section>
-			<!-- ------------ section ------------------>
-			<section class="timer-section">
-				<div class="container">
-                    <div class="timer__box">
-						<img class="borderr" src="img/timer/border.svg" alt="">
-						<div class="timer__value"></div>
-						<div class="timer__description"> <span>Օր</span><span>Ժամ</span><span>Րոպե</span><span>Վայրկյան</span>
-						</div>
-					</div>
-					<!-- Код виджета можете вставить в "tickets__box"-->
-						<form class="" action="ajax.php" method="post" data-form="1">
-							<a class="t-btn text-center mx-4" href="https://instagram.com/arusikmarkosyan_photography">
-								<div class="btn__inner">ՈՒՂԱՐԿԵԼ ՉԵԿԸ</div>
-							</a>
-						</form>
-					</div>
-				</div>
-			</section>
-			<!-- ------------ section ------------------>
-			<footer class="footer-section">
-				<div class="container">
-					<div class="footer__item"> <a href="policy/"></a>
-					</div>
-				</div>
-			</footer>
+              </div>
         </div>
-		<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="js/jquery.min.js"></script>
-        <script src="js/jquery.time-to.min.js"></script>
-        <script src="js/main.js?version=1238"></script>
-    </body>
+	</footer>
+	<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js"></script> 
+	<script src="js/jquery.min.js"></script> 
+	<script src="js/jquery.time-to.min.js"></script> 
+	<script src="js/main.js"></script> 
+	<script src="js/slider.js"></script>
+	<script src="js/gallery.js"></script>
+    <script src='https://cdn.rawgit.com/DrewDahlman/Mason/758d4ed3/dist/mason.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js'></script>
 
+</body>
 </html>

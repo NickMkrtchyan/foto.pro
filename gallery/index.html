@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - MasonJS Image Grid</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="wrapper">
+  <div class="mason">
+    <div class="mason__item mason__img" style="background-image: url('/gallery/image/image1.jpg')" data-dimensions="960x960"  data-href="/gallery/image/image1.jpg"></div>
+    <div class="mason__item mason__img" style="background-image: url('/gallery/image/image2.jpg')" data-dimensions="960x960"  data-href="/gallery/image/image2.jpg"></div>
+    <div class="mason__item mason__img" style="background-image: url('/gallery/image/image3.jpg')" data-dimensions="960x960"  data-href="/gallery/image/image3.jpg"></div>
+    <div class="mason__item mason__img" style="background-image: url('/gallery/image/image4.jpg')" data-dimensions="960x960"  data-href="/gallery/image/image4.jpg"></div>
+    <div class="mason__item mason__img" style="background-image: url('/gallery/image/image5.jpg')" data-dimensions="960x960"  data-href="/gallery/image/image5.jpg"></div>
+    <div class="mason__item mason__img" style="background-image: url('/gallery/image/image6.jpg')" data-dimensions="960x960"  data-href="/gallery/image/image6.jpg"></div>
+    <div class="mason__item mason__img" style="background-image: url('/gallery/image/image7.jpg')" data-dimensions="960x960"  data-href="/gallery/image/image7.jpg"></div>
+    <div class="mason__item mason__img" style="background-image: url('/gallery/image/image8.jpg')" data-dimensions="960x960"  data-href="/gallery/image/image8.jpg"></div>
+    <div class="mason__item mason__img" style="background-image: url('/gallery/image/image9.jpg')" data-dimensions="960x960"  data-href="/gallery/image/image9.jpg"></div>
+    <div class="mason__item mason__img" style="background-image: url('/gallery/image/image10.jpg')" data-dimensions="960x960" data-href="/gallery/image/image10.jpg"></div>
+    <div class="mason__item mason__img" style="background-image: url('/gallery/image/image11.jpg')" data-dimensions="960x960" data-href="/gallery/image/image11.jpg"></div>
+    <div class="mason__item mason__img" style="background-image: url('/gallery/image/image12.jpg')" data-dimensions="960x960" data-href="/gallery/image/image12.jpg"></div>
+    <div class="mason__item mason__img" style="background-image: url('/gallery/image/image13.jpg')" data-dimensions="960x960" data-href="/gallery/image/image13.jpg"></div>
+    <div class="mason__item mason__img" style="background-image: url('/gallery/image/image14.jpg')" data-dimensions="960x960" data-href="/gallery/image/image14.jpg"></div>
+    <div class="mason__item mason__img" style="background-image: url('/gallery/image/image15.jpg')" data-dimensions="960x960" data-href="/gallery/image/image15.jpg"></div>
+    <div class="mason__item mason__img" style="background-image: url('/gallery/image/image16.jpg')" data-dimensions="960x960" data-href="/gallery/image/image16.jpg"></div>
+    <div class="mason__item mason__img" style="background-image: url('/gallery/image/image17.jpg')" data-dimensions="960x960" data-href="/gallery/image/image17.jpg"></div>
+    <div class="mason__item mason__img" style="background-image: url('/gallery/image/image18.jpg')" data-dimensions="960x960" data-href="/gallery/image/image18.jpg"></div>
+    <div class="mason__item mason__img" style="background-image: url('/gallery/image/image19.jpg')" data-dimensions="960x960" data-href="/gallery/image/image19.jpg"></div>
+  </div>
+</div>
+<!-- Root element of PhotoSwipe. Must have class pswp.-->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+  <!--
+  Background of PhotoSwipe.
+  It's a separate element as animating opacity is faster than rgba().
+  -->
+  <div class="pswp__bg"></div>
+  <!-- Slides wrapper with overflow:hidden.-->
+  <div class="pswp__scroll-wrap">
+    <!--
+    Container that holds slides.
+    PhotoSwipe keeps only 3 of them in the DOM to save memory.
+    Don't modify these 3 pswp__item elements, data is added later on.
+    -->
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed.-->
+    <div class="pswp__ui pswp__ui--hidden">
+      <div class="pswp__top-bar">
+        <!-- Controls are self-explanatory. Order can be changed.-->
+        <div class="pswp__counter"></div>
+        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+        <button class="pswp__button pswp__button--share" title="Share"></button>
+        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+        <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR-->
+        <!-- element will get class pswp__preloader--active when preloader is running-->
+        <div class="pswp__preloader">
+          <div class="pswp__preloader__icn">
+            <div class="pswp__preloader__cut">
+              <div class="pswp__preloader__donut"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+        <div class="pswp__share-tooltip"></div>
+      </div>
+      <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+      <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+      <div class="pswp__caption">
+        <div class="pswp__caption__center"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdn.rawgit.com/DrewDahlman/Mason/758d4ed3/dist/mason.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
