@@ -910,7 +910,10 @@ section {
 /* ------------- section ------------------ */
 .intro-section {
     text-align: center;
-    padding-bottom: 7rem;
+    /* padding-bottom: 7rem; */
+}
+.intro-section .t-btn {
+    margin-top: -3rem;
 }
 
 .intro-section .container {
@@ -974,9 +977,10 @@ section {
     width: 100%;
     font-size: 1.6rem;
     display: block;
-    margin: 3rem auto 1rem;
+    margin: 0rem auto 1rem;
     min-height: 1.9rem;
     font-weight: 700;
+    top: -4rem;
 }
 
 .intro__subtitle {
@@ -1009,7 +1013,8 @@ section {
     width: 100%;
     font-size: 2rem;
     font-weight: 700;
-    margin: 1rem auto 3rem
+    margin: 0rem auto 3rem;
+    top: -4rem;
 }
 
 .intro__show-subtitle {
