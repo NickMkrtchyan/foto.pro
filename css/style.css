@@ -772,7 +772,7 @@ section {
 	/* padding-bottom: 7rem; */
 }
 .intro-section .t-btn {
-	margin-top: 4rem;
+	/* margin-top: 4rem; */
 }
 .intro-section .container {
 	background: #120D08;
@@ -1086,18 +1086,22 @@ p.yellow_bg {
 	margin: 1.5rem 0;
 	padding: 0 0.5rem;
 }
-.payments .payment_image {
-	/* width: 30%;s */
-}
+
 .payments .payment_image img {
 	height: 50px;
 }
-.payments .payment_number {
-	/* width: 70%; */
-}
+
 .payments .payment_number p {
 	height: 40px;
 	font-size: 20px;
+}
+.no b {
+	display: none !important;
+	text-align: center;
+	font-size: 1.2rem;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	border: 1px solid #8F8F8F;
 }
 .time__box {
 	position: relative;
