@@ -1796,3 +1796,11 @@ object-fit: contain;
 width: 100% !important;
 /* height: 800px !important; */
 }
+.place_inhold {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    width: 80%;
+    margin: 2rem auto;
+    border-radius: 50px;
+}
