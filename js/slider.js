@@ -8,7 +8,6 @@ jQuery(document).ready(function($) {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
-        adaptiveHeight: true,
         arrows: true, // Включаем стрелки
         responsive: [{
             breakpoint: 600,
@@ -36,6 +35,7 @@ jQuery(document).ready(function($) {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
+        adaptiveHeight: true,
         arrows: true, // Включаем стрелки
         centerMode: true, // Активная точка будет центральной
         variableWidth: true, // Включает изменение ширины слайдов
@@ -63,6 +63,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
     lightGallery(document.querySelector('.collage-container'), {
         selector: 'a',
+        plugins: [lgZoom, lgThumbnail],
+        speed: 500,
+        download: true,
+        thumbnail: false,
+        animateThumb: false
     });
     lightGallery(document.getElementById('lightgallery'), {
         selector: 'a',
