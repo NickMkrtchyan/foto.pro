@@ -59,13 +59,16 @@ jQuery(document).ready(function($) {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
+
+    lightGallery(document.querySelector('.collage-container'), {
+        selector: 'a',
+    });
     lightGallery(document.getElementById('lightgallery'), {
         selector: 'a',
-        plugins: [lgZoom],
+        plugins: [lgZoom, lgThumbnail],
         speed: 500,
-        download: false,
+        download: true,
         thumbnail: false,
         animateThumb: false
     });
 });
-
