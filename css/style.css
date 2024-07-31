@@ -971,7 +971,7 @@ section {
 
 .intro__show-title {
 	width: 100%;
-	font-size: 2.3rem;
+	font-size: 2rem;
 	font-weight: 500;
 	margin: auto;
 	font-style: italic;
@@ -1745,6 +1745,7 @@ form .form-check .form-check-label {
     font-size: 3.2rem;
     font-weight: 700;
     text-align: center;
+    text-transform: uppercase;
 }
 .footer-section .footer__item {
 	font-size: 1.4rem;

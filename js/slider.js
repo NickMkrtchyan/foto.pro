@@ -8,6 +8,7 @@ jQuery(document).ready(function($) {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
+        adaptiveHeight: true,
         arrows: true, // Включаем стрелки
         responsive: [{
             breakpoint: 600,
