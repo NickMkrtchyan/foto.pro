@@ -136,6 +136,7 @@ pre {
 /** * Remove the gray background on active links in IE 10. */
 a {
 	background-color: transparent;
+	color: inherit;
 }
 
 /** * 1. Remove the bottom border in Chrome 57- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari. */
@@ -947,7 +948,7 @@ section {
 
 .intro__instagram {
 	position: absolute;
-	top: 36rem;
+	top: 47rem;
 	right: 2rem;
 	font-size: 1.2rem;
 	font-weight: 700;
@@ -1116,6 +1117,16 @@ section {
 	justify-content: flex-start;
 	text-align: left;
 	padding: .8rem 0;
+}
+
+.secret__box .item.plus .number {
+	border: 1px solid yellow;
+}
+
+.secret__box .item.plus .number h3.number-svg {
+	font-size: 5rem !important;
+    margin-top: -7px;
+    margin-left: 5px;
 }
 
 .secret__box .item .number {
