@@ -62,6 +62,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
     lightGallery(document.querySelector('.collage-container'), {
         selector: 'a',
+        plugins: [lgZoom, lgThumbnail],
+        speed: 500,
+        download: true,
+        thumbnail: false,
+        animateThumb: false
     });
     lightGallery(document.getElementById('lightgallery'), {
         selector: 'a',
