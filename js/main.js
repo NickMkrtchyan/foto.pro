@@ -41,7 +41,7 @@ $(document).ready(() => {
     });
 
     $('.timer__value').timeTo({
-        timeTo: new Date(new Date('Aug 20 2024 00:00:00 GMT+0400')),
+        timeTo: new Date(new Date('Nov 07 2024 00:00:00 GMT+0400')),
         displayDays: 2,
     });
 	
